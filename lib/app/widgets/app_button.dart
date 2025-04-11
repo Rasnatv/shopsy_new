@@ -20,7 +20,7 @@ class AppButton extends StatelessWidget {
       height: height,
       width: width,
       decoration: BoxDecoration(
-        color: buttonColor?.withAlpha(isDisabled == true ? 155 : 255) ?? AppColors.kPrimary.withAlpha(isDisabled == true ? 160 : 255),
+        color: buttonColor?.withAlpha(isDisabled == true ? 160 : 255) ?? AppColors.kPrimary.withAlpha(isDisabled == true ? 160 : 255),
         borderRadius: BorderRadius.circular(borderRadius ?? 10.r),
       ),
       child: ClipRRect(
