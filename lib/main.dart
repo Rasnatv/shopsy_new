@@ -19,7 +19,7 @@ class InnsoulsApp extends StatelessWidget {
         builder: (_, child) {
           return GetMaterialApp(
             debugShowCheckedModeBanner: false,
-            title: "Innsouls",
+            title: "shopsy_new",
             navigatorObservers: [GetObserver()],
             navigatorKey: Get.key,
             initialRoute: AppPages.INITIAL,
